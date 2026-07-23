@@ -1,0 +1,35 @@
+{
+  "skill_name": "academy-agent-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a backend architect agent from the academy repo",
+      "expected_output": "Agent file created at .claude/agents/backend-architect.md with full prompt content from academy/prompts/criar-agente-backend-architect.md",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a code review agent. Can you set it up from the academy templates?",
+      "expected_output": "Agent file created at .claude/agents/code-review.md with full prompt content from academy/prompts/criar-agente-code-review.md",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "List all available agents from the academy/prompts library",
+      "expected_output": "List of 8+ agents: backend-architect, backend-engineer, bug-fix, code-review, cyber-security, devops-engineer, qa-engineer, pre-commit-hook",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Set up a DevOps agent using the academy prompts",
+      "expected_output": "Agent file created at .claude/agents/devops-engineer.md with full CI/CD and infrastructure automation content",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "I need both a QA engineer agent and a security agent from academy. Set them both up.",
+      "expected_output": "Two agent files created: .claude/agents/qa-engineer.md and .claude/agents/cyber-security.md",
+      "files": []
+    }
+  ]
+}
